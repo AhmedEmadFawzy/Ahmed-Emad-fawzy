@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Login.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary d-none ">
+    <div class="container">
+      <a class="navbar-brand" href="#">SMART LOGIN
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <button class="btn btn-dark" id="logOut" >Loguot</button>
+      </div>
+    </div>
+  </nav>
+<div class="conatiner w-75  ">
+  <div class="card   " id="card" >
+    <div class="row">
+      <div class=" part1 col-6  ">
+       <div class="mt-5" >
+        <h3 class="text-black"  >Hello !</h3>
+        <h1 class="text-black" >Good Morning</h1>
+       </div>
+        <img src="undraw_mobile_profile_7hvy (1).svg" class=" img-one w-50" alt="">
+      </div>
+      <div class="part2 col-6">
+        <div class="form">
+          <div>
+          <img src="undraw_drink_coffee_v3au.svg" class="img-two  w-25"  alt="">
+          </div>
+       <div class="sign-in " id="hamada">
+        <div class="mb-3">
+          <input type="text" class="form-control  " id="loginName" placeholder="Enter Your Name">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="loginEmail" placeholder="Enter your Email">
+        </div>
+        <div class="mb-3">
+          <input type="password" class="form-control" id="loginPassword" placeholder="Eneter Your Password">
+        </div>
+        <p class="success  text-success d-none "  >success</p>
+        <small class="danger  text-danger d-none " >all input is requird</small>
+        <p  id="emailSigned" class="success  text-warning d-none "  >email is registered , please use another email</p>
+
+        <button class="btn btn-light mt-2" id="SignUp">Sign Up</button>
+
+        <div class="sign-in mt-4 " >
+          <h6 class="text-white  " >You have an account? <span>  <button  id="btnSignIn" class="btn  btn-light " >sign in </button></span> </h6>
+       </div>
+          <!-- sign up -->
+          </div>
+          <div class="sign-up d-none" id="hambozooooo" >
+            <div class="mb-3">
+              <input type="email" class="form-control" id="loginEmailIn" placeholder="Enter your Email">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="loginPasswordIn" placeholder="Eneter Your Password">
+            </div>
+            <small id="false" class="danger  text-danger d-none  " >all input is requird</small>
+
+            <!-- <p class="success  text-success d-none "  >success</p>
+            <small class="danger  text-danger d-none " >all input is requird</small> -->
+            <button class="btn btn-light mt-2" id="Login">Login</button>
+            <div class="sign-up mt-4 " >
+             
+              <h6 class="text-white  " >You have an account? <span>  <button  id="btnSignup" class="btn  btn-light " >sign Up </button></span> </h6>
+          </div>
+        </div>
+      </div>
+          
+      </div>
+    </div>
+  </div>
+  
+</div>
+<div class="conatiner w-75  ">
+<div class="success-login d-none "  id="successLogin" >
+  <div class="card2  ">
+    <div class="row">
+      <div class=" part1 col-6  ">
+       <div class="mt-5" >
+       </div>
+        <img src="undraw_balloons_re_8ymj.svg" class=" img-one w-50" alt="">
+</div>
+<div class="partt2 col-6 ">
+<img src="undraw_waiting__for_you_ldha.svg"   alt="">
+</div>
+</div>
+  </div>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/js/bootstrap.bundle.js">
+    <script src="Login.js" ></script>
+</body>
+</html>
